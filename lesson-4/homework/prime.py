@@ -4,12 +4,10 @@ def prime_numbers():
         primen = True  
         for i in range(2, number):  
             if number % i == 0:  
-                primen = False  # It's not prime
-                i += i
+                primen = False  
                 break;  
         if primen:
             print(number)  
-        number += number
+       
 
-# Run the function to print prime numbers
 prime_numbers()
